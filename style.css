@@ -13,21 +13,24 @@ body {
 }
 
 header {
-    padding: 20px;
+    padding: 0px;
+    margin: 20px 0;
 }
 
 main {
     margin: 0 auto;
     width: 100%;
     min-width: 400px;
+    min-height: 1000px;
     text-align: center;
 }
 
 a {
     color: rosybrown;
+    text-decoration: none;
 }
 
-.project_box {
+.box {
     margin: 0 auto;
     width: 60%;
     background-color: ivory;
@@ -35,9 +38,29 @@ a {
     border-radius: 5px;
     padding: 10px;
     text-align:  center;
+    box-shadow: 2px 2px;
 }
 
-.project_box * {
+.box:hover {
+    box-shadow: 4px 4px;
+}
+
+#top_box {
+    text-align: left;
+    padding: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#top_box p {
+    display: inline;
+}
+
+.right {
+    float: right;
+}
+
+.box * {
     margin-bottom: 10px;
 }
 
