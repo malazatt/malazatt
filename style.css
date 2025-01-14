@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: peachpuff;
+    color: rosybrown;
+}
+
+main {
+    width: 60%;
+    min-width: 900px;
+    text-align: center;
+}
+
+a {
+    color: rosybrown;
+}
