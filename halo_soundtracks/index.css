@@ -33,6 +33,14 @@ nav li:hover {
     background-color: floralwhite;
 }
 
+#CE_link:hover {
+    color: #203652;
+}
+
+#halo2_link:hover {
+    color: #203652;
+}
+
 #halo3_link:hover {
     color: #12171d;
 }
