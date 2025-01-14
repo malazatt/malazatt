@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: floralwhite;
+    color: #203652;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: #203652;
+    border-bottom: 4px solid floralwhite;
+    color: floralwhite;
+    font-weight: bold;
+}
+
+nav a {
+    color: floralwhite;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav li:hover {
+    background-color: floralwhite;
+}
+
+#halo3_link:hover {
+    color: #12171d;
+}
+
+#odst_link:hover {
+    color: #4a86aa;
+}
+
+#reach_link:hover {
+    color: #c1714c;
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#welcome_banner {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6vw;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+#halo3_section {
+    background-color: #12171d;
+}
+
+#odst_section {
+    background-color: #4a86aa;
+}
+
+#reach_section {
+    background-color: #c1714c;
+}
+
+.left_column {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    min-width: 400px;
+    max-width: 500px;
+    min-height: 300px;
+    color: floralwhite;
+    padding: 0px;
+}
+
+/* #halo3_left_column {
+    background-color: #12171d;
+    border: 2px solid #12171d;
+}
+
+#odst_left_column {
+    background-color: #4a86aa;
+    border: 2px solid #4a86aa;
+}
+
+#reach_left_column {
+    background-color: #c1714c;
+    border: 2px solid #c1714c;
+} */
+
+.album_cover {
+    margin-top: 30px;
+    /*padding: 10px;*/
+    width: 100%;
+    height: auto;
+}
+
+.album_title {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.right_column {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    min-width: 400px;
+    max-width: 500px;
+    color: floralwhite;
+    text-align: left;
+    padding: 10px;
+}
+
+ /* #halo3_right_column {
+    background-color: #12171d;
+}
+
+#odst_right_column {
+    background-color: #4a86aa;
+}
+
+#reach_right_column {
+    background-color: #c1714c;
+} */
+
+.tracks {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.disc_number {
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.length {
+    float: right;
+}
+
+footer {
+    height: 60px;
+    margin-top: 20px;
+    background-color: #203652;
+    color: floralwhite;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    display: inline-block;
+    margin: auto 20px;
+}
+
+footer a {
+    color: floralwhite;
+}
